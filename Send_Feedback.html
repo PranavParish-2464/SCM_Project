@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" type="Image/x-icon" href="C:\Users\Pranav\Downloads\Screenshot 2021-12-13 201910 (3).png">
+<link rel="stylesheet" href="IWT_Project.css">
+<title>
+    India Expo: Explore Our Incredible India
+</title>
+
+<style>
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#text{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+</head>
+<body link="white" vlink="whitesmoke" alink="grey" style = "background-color: blanchedalmond;">
+	<nav>
+        <ul>
+            <li class="brand"><img src="C:\Users\Pranav\Downloads\logo-removebg-preview (1).png" alt="India Expo">India Expo</li>
+            <li class="myhover"><a href="IWT_Project.html">Home</a></li>
+            <li class="myhover"><a href = "About_Us.html">About Us</a></li>
+            <li class="myhover"><a href = "login_page.html">Login</a><li>
+			<li class="myhover"><a href="Send_Feedback.html">Send Feedback</a></li>
+			<li class="myhover"><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSKkkLVDRnWNfMfPDXWWtlrZZvPWvTcXDhpwkhVdbwRnTKNlnDflcrnZlgPhgQljSBxvQMJB" target="_blank">Contact Us</a></li>
+			<li>
+				<label for="place">
+					Choose a Place:
+				</label>
+				<select id="place">
+					<option value="select">--Select--</option>
+					<option value="chandigarh">Chandigarh</option>
+					<option value="delhi">Delhi</option>
+					<option value="manali">Manali</option>
+					<option value="jaipur">Jaipur</option>
+				</select>
+			</li>
+        </ul>	
+    </nav>
+<div>
+  <form action="">
+
+  	<h2 style="margin: 8px; text-align: center; font-size: 40px; text-transform: uppercase; text-shadow: 3px 3px 5px;">Send Feedback</h2>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your First name..." required>
+
+    <label for="mname"><b>Middle Name</b></label>
+    <input type="text" id="mname" name="middlename" placeholder="Your Middle name...">
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Last name...">
+
+    <label><b>Date Of Birth</b></label>
+    <input type="text" name="dateofbirth" placeholder="DD/MM/YYYY" required>
+
+    <label><b>E-mail</b></label>
+    <input type="text" name="Email" placeholder="Your E-mail I'D" required>
+
+    <label><b>Phone Number</b></label>
+    <input type="text" name="phonenumber" placeholder="Your Phone Number..." required>
+
+    <label><b>Feedback</b></label>
+	  <textarea id="text" name="subject" placeholder="Write Something..." required></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
